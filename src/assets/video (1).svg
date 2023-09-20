@@ -1,0 +1,18 @@
+<svg width="57" height="58" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="video" filter="url(#filter0_d_1_3098)">
+<rect x="10.2344" y="7.59412" width="36.5272" height="36.5272" rx="18.2636" fill="white"/>
+<path id="Polygon 1" d="M33.6727 25.3305C34.0785 25.5649 34.0785 26.1507 33.6727 26.385L26.3672 30.6028C25.9614 30.8371 25.4541 30.5442 25.4541 30.0756L25.4541 21.64C25.4541 21.1713 25.9614 20.8784 26.3672 21.1127L33.6727 25.3305Z" fill="#EDF6F3"/>
+</g>
+<defs>
+<filter id="filter0_d_1_3098" x="0.23439" y="0.594116" width="56.5272" height="56.5272" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0235294 0 0 0 0 0.0235294 0 0 0 0 0.25098 0 0 0 0.01 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_3098"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_3098" result="shape"/>
+</filter>
+</defs>
+</svg>
