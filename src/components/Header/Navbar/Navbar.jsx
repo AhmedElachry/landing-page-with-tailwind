@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../../Logo";
 import Links from "./Links";
 import LinksSm from "./LinksSm";
 import close from "../../../assets/close.svg";
@@ -8,9 +9,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="container mx-auto  my-9 bg-white max-h-[6.25rem] flex justify-between items-center p-5 relative  rounded-xl w-full ">
-      <h1 className="text-primary text-[1.875rem] font-bold">
-        <span className="text-secondary">B</span>izpro
-      </h1>
+      <Logo />
       <Links />
       <div className="hidden md:flex gap-[1.5625rem] items-center flex-col md:flex-row font-medium ">
         <p>

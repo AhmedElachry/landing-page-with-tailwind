@@ -3,7 +3,7 @@ import Bussiness from "../../components/Header/Bussiness/Bussiness";
 
 function Header() {
   return (
-    <header className="  h-[2000px] overflow-hidden bg-section1-bg flex flex-col  ">
+    <header className="  bg-section1-bg border border-green-600 flex flex-col  ">
       <Navbar />
       <Bussiness />
     </header>
