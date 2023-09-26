@@ -5,7 +5,7 @@ import star from "../../../assets/star.svg";
 
 const LiftCard = () => {
   return (
-    <div className="border border-green-500">
+    <div className="">
       <div className=" flex flex-col items-center md:items-start ">
         <div className="relative flex">
           <h2 className="text-primary text-center  md:text-left md:text-[50px] md:max-w-[423px]  text-3xl font-bold leading-[4.0625rem]">

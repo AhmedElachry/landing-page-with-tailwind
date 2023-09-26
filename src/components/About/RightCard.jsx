@@ -1,11 +1,14 @@
-import aboutRight from "../../assets/aboutRight.svg";
+import aboutRight from "../../assets/aboutRight.png";
 import aboutRight2 from "../../assets/aboutRight2.svg";
 
 const RightCard = () => {
   return (
-    <div>
-      <img src={aboutRight} />
-      <img src={aboutRight2} />
+    <div className="relative flex">
+      <img className="" src={aboutRight} />
+      <img
+        className=" absolute right-[-50px] bottom-[30px]"
+        src={aboutRight2}
+      />
     </div>
   );
 };
