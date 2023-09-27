@@ -1,6 +1,7 @@
 import LeftCard from "./LeftCard";
 import RightCard from "./RightCard";
 // import RightSide from "./RightSide";
+// import RightSide from "./RightSide";
 
 function Bussiness() {
   return (

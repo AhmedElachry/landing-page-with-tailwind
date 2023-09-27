@@ -7,8 +7,8 @@ const LiftCard = () => {
   return (
     <div className="">
       <div className=" flex flex-col items-center md:items-start ">
-        <div className="relative flex">
-          <h2 className="text-primary text-center  md:text-left md:text-[50px] md:max-w-[423px]  text-3xl font-bold leading-[4.0625rem]">
+        <div className="relative">
+          <h2 className="text-primary text-center  md:text-left md:text-[50px] md:max-w-[423px]  font-bold leading-[4.0625rem]">
             Perfect place for your business promotion✌️
           </h2>
           <img src={ellipse11} className="absolute top-4 left-[85px] w-6  " />

@@ -1,5 +1,5 @@
 import group13 from "../../../assets/group13.svg";
-import group33 from "../../../assets/group33.svg";
+// import group33 from "../../../assets/group33.svg";
 import search from "../../../assets/search.svg";
 import live from "../../../assets/live.svg";
 import arrowDown from "../../../assets/arrowDown.svg";
@@ -16,10 +16,10 @@ const RightSide = () => {
   return (
     <div className="border sm:border-green-400 border-red-300   xxs:min-h-[400px] xs:min-h-[500px] sm:min-h-[600px] md:max-h-[500px] lg:min-h-[600px] md:mt-[6.8rem] relative   p-[1.25rem] bg-white rounded-2xl shadow-[0_4px_30px_0px_rgba(6,6,64,0.03)] ">
       <img className="w-[3.25rem]" src={group13} />
-      <img
+      {/* <img
         className=" absolute max-w-[8.375rem] top-[-4.7rem] right-[-5.5rem] "
         src={group33}
-      />
+      /> */}
       <div className=" h-[3.9375rem] w-full p-[0.8125rem] my-[0.94rem]  flex items-center justify-between bg-section1-bg rounded-xl">
         <div className="flex w-[50%] sm:w-[19.5rem] h-[2.3125rem] rounded-md bg-[#DFF3FD] px-[0.7rem]">
           <img className="w-[0.875rem]  " src={search} />
