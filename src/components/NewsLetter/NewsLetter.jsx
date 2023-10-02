@@ -31,12 +31,12 @@ const NewsLetter = () => {
       </div>
       <div className="flex relative  min-w-[353px] ">
         <img
-          className="hidden absolute xl:block right-[-80px] bottom-[-50px] "
+          className="hidden absolute 2xl:block right-[-80px] bottom-[-50px] "
           src={NewsEx1}
         />
         <div className=" ">
           <img
-            className="absolute hidden xl:block right-[85px] top-[-130px]"
+            className="absolute hidden 2xl:block right-[85px] top-[-130px]"
             src={NewsEx2}
           />
           <img
