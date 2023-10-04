@@ -20,7 +20,7 @@ const Proccess = () => {
             <img src={box} />
           </div>
 
-          <header className="text-2xl mb-3 text-primary font-medium	">
+          <header className="md:text-2xl mb-3 text-primary font-medium	">
             Choose packages
           </header>
           <p className="text-base text-center xl:text-left  text-paragraph max-w-[280px]">
@@ -28,11 +28,11 @@ const Proccess = () => {
             identifying audience or users.
           </p>
         </section>
-        <section className="rounded-xl flex flex-col items-center xl:items-start w-[280px] xs:w-[370px] max-h-[308px] bg-white p-7  shadow-[0_30px_50px_0px_rgba(3,3,37,0.04)]">
+        <section className="rounded-xl border-[#0606400a] flex flex-col  items-center xl:items-start border-2 w-[280px] xs:w-[370px] max-h-[308px] bg-white p-7  shadow-[0_30px_50px_0px_rgba(3,3,37,0.04)]">
           <div className=" w-[70px] h-[70px] mb-12 bg-section1-bg rounded-xl flex justify-center items-center">
             <img src={calendar} />
           </div>
-          <header className="text-2xl mb-3 text-primary font-medium	">
+          <header className="md:text-2xl mb-3 text-primary font-medium	">
             Schedule appointment
           </header>
           <p className="text-base text-center xl:text-left text-paragraph ">
@@ -45,10 +45,10 @@ const Proccess = () => {
             <img src={statistics} />
           </div>
 
-          <header className="text-2xl mb-3 text-primary font-medium	">
+          <header className="md:text-2xl mb-3 text-primary font-medium	">
             Grow together
           </header>
-          <p className="text-base text-center xl:text-left text-paragraph max-w-[280px]">
+          <p className="md:text-base text-center xl:text-left text-paragraph max-w-[280px]">
             Texting can sometimes come across as an impersonal way to
             communicate, it can be highly beneficial.
           </p>
